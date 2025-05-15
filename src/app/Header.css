@@ -1,0 +1,30 @@
+
+.styles-nav {
+    background-color:var(--dun2);
+    color:var(--coffee);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+.styles-navList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 33vw;
+}
+.style-navList-li{
+    display: flex;
+    align-items:center;
+    font-weight: 600;
+}
+.style-nav-social-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 33vw;
+
+}
