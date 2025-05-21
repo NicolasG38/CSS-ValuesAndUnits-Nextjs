@@ -1,15 +1,15 @@
 @import "tailwindcss";
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+
+
+@font-face {
+  font-family: "Regular";
+  src: local("Regular"), url("../font/timberline-regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Icons";
+  src: local("Icons"), url("../font/timberline-icons.otf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 :root {
   --anthracite:#333;
   --eerieBlack:#23211E;
@@ -36,7 +36,11 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  text-align: center;
   background: var(--anthracite);
   color: #fdfdfd;
   }
+
+/*a supprimer*/
+.video{
+margin: auto;
+}
