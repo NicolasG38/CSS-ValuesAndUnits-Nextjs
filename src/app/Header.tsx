@@ -1,23 +1,29 @@
 import Image from 'next/image';
-
 import Link from "next/link";
 
 
 export default function Header(){
   return(
       <>
-    <nav className={"styles-nav"}>
-        <section className={"style-nav-social-group"}>
-            <Image className={"bluesky-logo"} src={"./social/bluesky.svg"} alt={"logo bluesky"} width={30} height={30} />
-            <Image className={"intagram-logo"} src={"./social/instagram.svg"} alt={"logo instagram"} width={30} height={30} />
-            <Image className={"threads-logo"} src={"./social/threads.svg"} alt={"logo threads"} width={30} height={30} />
-            <Image className={"linkedIn-logo"} src={"./social/linkedIn.svg"} alt={"logo linkedIn"} width={30} height={30} />
-            <Image className={"github-logo"} src={"./social/github.svg"} alt={"logo github"} width={30} height={30} />
+        <section className={"sectionLogo"}>
+          <Image className={"logo"} src={"/logo.png"} alt={"logo"} width={100} height={100} />
         </section>
-        <ul className={"styles-navList"}>
-            <Link href="/"><li className={"style-navList-li"}>Home</li></Link>
-        <Link href="/about/"><li className={"style-navList-li"}>About</li></Link>
-        </ul>
+    <nav className={"styles-nav"}>
+
+        <section className={"styles-nav-section"}>
+            <ul className={"styles-navList"}>
+                <Link href="/"><li className={"style-navList-li"}>Home</li></Link>
+                <Link href="/frontend"><li className={"style-navList-li"}>Frontend</li></Link>
+                <Link href="/backend"><li className={"style-navList-li"}>Backend</li></Link>
+                <Link href="/about"><li className={"style-navList-li"}>About</li></Link>
+            </ul>
+        </section>
+
+        <section className={"styles-nav-others"}>
+            <Link href="/tools"><li className={"style-navList-li"}>Outils</li></Link>
+            <Link href={"/contact"}><li className={"style-navList-li"}>Contact</li></Link>
+            <Image className={"github-logo"} src={"./ui-ux/arrowCircleUp.svg"} alt={"logo github"} width={40} height={40} />
+        </section>
     </nav>
       </>
   )

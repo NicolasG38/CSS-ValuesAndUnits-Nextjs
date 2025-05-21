@@ -1,0 +1,94 @@
+.websiteTitle{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5rem auto;
+}
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.presentationText{
+    font-size: 1rem;
+    width: 90vw;
+    max-width: 90vw;
+    min-width: 40vw;
+    text-align: justify;
+}
+
+.sectionTitleFrontend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleFrontend{
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 800;
+    margin:4rem 0 2rem ;
+    width: 90vw;
+}
+.sectionFrontend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 290px;
+    height: 320px;
+    border: 1px solid var(--battleshipGray);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--eerieBlack), inset 150px -150px 200px var(--gray) ;
+}
+.number{
+    color : var(--dun);
+    text-align: start;
+    font-size: .8rem;
+    margin: auto 2rem;
+}
+.categories{
+    font-family: Regular, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin: auto 1rem;
+}
+.divider{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 1rem;
+    height: 70%;
+}
+.imgHTML{
+    background: 0% / 140% 100% url("/images/HTML.jpg");
+    filter: sepia(20%) ;
+}
+.imgCSS{
+    background: 0% / 140% 100% url("/images/CSS.jpg");
+    filter: sepia(20%) ;
+}
+.imgJS{
+    background: 100% / 100% 100% url("/images/JS.jpg");
+    filter: sepia(20%) ;
+}
+.imgMySQL{
+    background: 50% / 140% 100% url("/images/MySQL.jpg");
+    filter: sepia(20%);
+    border-radius: 10px;
+}
+.imgPHP{
+    background: 100% / 140% 100% url("/images/PHP.jpg") no-repeat ;
+    filter: sepia(20%);
+    object-fit: cover;
+}
+.imgPYTHON{
+    background: 50% / 140% 100% url("/images/PYTHON.jpg");
+    object-fit: cover;
+    filter: sepia(20%) ;
+}
