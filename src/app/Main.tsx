@@ -109,7 +109,7 @@ export default function Main() {
                 <section className={"divider"}>
                     <ul>
                         <li><Link href={"/HTML/Structure"}>{boxProps.content.lesson1}</Link></li>
-                        <li><Link href={""}>{boxProps.content.lesson2}</Link></li>
+                        <li><Link href={"/HTML/Balises"}>{boxProps.content.lesson2}</Link></li>
                         <li><Link href={""}>{boxProps.content.lesson3}</Link></li>
                         <li><Link href={""}>{boxProps.content.lesson4}</Link></li>
                         <li><Link href={""}>{boxProps.content.lesson5}</Link></li>

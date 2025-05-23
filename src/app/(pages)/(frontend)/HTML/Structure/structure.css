@@ -1,0 +1,34 @@
+.sectionStructure{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin: 4rem auto;
+}
+.sectionCodepen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codepen{
+    height: 640px;
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.sectionText{
+    width: 500px;
+    text-align: justify;
+}
+.titleSection{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin:0 0 1rem 0;
+
+}

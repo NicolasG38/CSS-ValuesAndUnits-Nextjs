@@ -19,7 +19,7 @@ export default function Page(){
                 <header>
                     <Header/>
                 </header>
-                <main>
+                <main className={"pre"}>
                     <p className={"secretSentence"}>Bienvenu sur ma page secréte... ou je regarde des videos Youtube
                         sans pub. Étant fan de progessive House/Melodic Techno, vous ne trouverez que ça ici ! </p>
                     <iframe className={"video"} width="1120" height="630" src={videos[0].link}
@@ -37,9 +37,11 @@ export default function Page(){
                         Structure HTML</a> by GIRARD (<a href="https://codepen.io/NicolasG38">@NicolasG38</a>)
                         on <a href="https://codepen.io">CodePen</a>.
                     </iframe>
-
                 </main>
-                <Footer/>
+                <footer>
+                    <Footer/>
+                </footer>
+
             </>
         )
 }
