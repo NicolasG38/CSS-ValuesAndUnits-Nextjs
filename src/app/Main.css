@@ -41,7 +41,29 @@
     height: 320px;
     border: 1px solid var(--battleshipGray);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px var(--eerieBlack), inset 150px -150px 200px var(--gray) ;
+    box-shadow: 5px 5px 5px var(--eerieBlack), inset 150px -150px 100px var(--eerieBlack) ;
+    transition: .35s;
+}
+.box2{
+    width: 290px;
+    height: 320px;
+    border: 1px solid var(--battleshipGray);
+    background-color: var(--eerieBlack);
+    border-radius: 10px;
+    rotate:5deg;
+    position: absolute;
+
+}
+.box3{
+    width: 290px;
+    height: 320px;
+    border: 1px solid var(--battleshipGray);
+    background-color: var(--eerieBlack);
+    border-radius: 10px;
+    rotate:-10deg;
+    position: absolute;
+    opacity: 50%;
+
 }
 .number{
     color : var(--dun);
@@ -91,4 +113,20 @@
     background: 50% / 140% 100% url("/images/PYTHON.jpg");
     object-fit: cover;
     filter: sepia(20%) ;
+}
+.sectionFramework{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:4rem 0 0 2rem;
+}
+.titleFramework{
+    text-align: start;
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ulFramework{
+    list-style: circle;
 }

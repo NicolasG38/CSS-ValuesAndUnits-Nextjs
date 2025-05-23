@@ -9,7 +9,6 @@ import Main from "@/app/Main";
 export default function Home() {
   return (
    <>
-
        <header>
            <Header/>
        </header>

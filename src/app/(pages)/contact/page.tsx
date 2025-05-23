@@ -4,6 +4,7 @@ import '../../Main.css'
 import '../../Footer.css'
 import Header from "@/app/Header";
 import Footer from "@/app/Footer";
+import Form from "@/app/(pages)/contact/Form";
 
 export default function Contact(){
  return(
@@ -13,7 +14,7 @@ export default function Contact(){
         <Header/>
        </header>
        <main>
-        <h1> ceci est mon contact</h1>
+        <Form />
        </main>
        <Footer />
       </>

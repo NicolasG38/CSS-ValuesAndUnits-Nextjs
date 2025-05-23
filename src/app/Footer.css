@@ -11,34 +11,24 @@
 }
 .style-nav-social-group{
     display: flex;
+    flex-direction: column;
     justify-content:center ;
-    gap: 2rem;
-    width: 15vw;
-    height: 8vw;
+    gap: 1rem;
+    width: 10vw;
+    height: 4vw;
     margin: 5vh 0 0 3vw;
-    &::before{
-        content: 'Social';
-        position: absolute;
-        width: 15vw;
-        height: 10vh;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: var(--battleshipGray);
-    }
 }
-
+.logosSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .linkedIn-logo{
-    &::after{
-        content: "LinkedIn";
-        color:var(--eerieBlack);
-
-    }
 }
 .usefulllinksSection{
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
 .footerUsefulllinksLinksList{
     display: flex;
