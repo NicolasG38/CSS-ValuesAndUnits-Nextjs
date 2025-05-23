@@ -21,8 +21,8 @@ export default function Main() {
             categorie:"Html",
             class:"box imgHTML",
             content:{
-                lesson1:"La structure",
-                lesson2:"Les balises",
+                lesson1:"La structure (en cours de rédaction...)",
+                lesson2:"Les balises (en cours de rédaction...)",
                 lesson3:"Html3",
                 lesson4:"Html4",
                 lesson5:"Html5",
@@ -59,7 +59,7 @@ export default function Main() {
 
     const boxBackend=[
         {
-            number: ".001",
+            number: ".004",
             categorie:"Mysql",
             class:"box imgMySQL",
             content:{
@@ -72,7 +72,7 @@ export default function Main() {
             key:20
         },
         {
-            number: ".002",
+            number: ".005",
             categorie:"php",
             class:"box imgPHP",
             content:{
@@ -85,7 +85,7 @@ export default function Main() {
             key:21
         },
         {
-            number: ".003",
+            number: ".006",
             categorie:"Python",
             class:"box imgPYTHON",
             content:{
@@ -101,16 +101,18 @@ export default function Main() {
 
     const frontendBox=boxFrontend.map((boxProps) =>(
         <section key={boxProps.key} className={"sectionHTML"}>
+            <div className={"box2"} />
+            <div className={"box3"} />
             <article className={boxProps.class}>
                 <h5 className={"number"}>{boxProps.number}</h5>
                 <h3 className={"categories"}>{boxProps.categorie}</h3>
                 <section className={"divider"}>
                     <ul>
-                        <li><Link href={""}>{boxProps.content.lesson1}</Link></li>
-                        <li>{boxProps.content.lesson2}</li>
-                        <li>{boxProps.content.lesson3}</li>
-                        <li>{boxProps.content.lesson4}</li>
-                        <li>{boxProps.content.lesson5}</li>
+                        <li><Link href={"/HTML/Structure"}>{boxProps.content.lesson1}</Link></li>
+                        <li><Link href={""}>{boxProps.content.lesson2}</Link></li>
+                        <li><Link href={""}>{boxProps.content.lesson3}</Link></li>
+                        <li><Link href={""}>{boxProps.content.lesson4}</Link></li>
+                        <li><Link href={""}>{boxProps.content.lesson5}</Link></li>
                     </ul>
                 </section>
             </article>
@@ -118,20 +120,23 @@ export default function Main() {
     ))
 
     const backendBox=boxBackend.map((boxProps)=>(
-        <section key={boxProps.key} className={"sectionHTML"}>
-            <article className={boxProps.class}>
-                <h5 className={"number"}></h5>
-                <h3 className={"categories"}>{boxProps.categorie}</h3>
-                <section className={"divider"}>
-                    <ul>
-                        <li>{boxProps.content.lesson1}</li>
-                        <li>{boxProps.content.lesson2}</li>
-                        <li>{boxProps.content.lesson3}</li>
-                        <li>{boxProps.content.lesson4}</li>
-                        <li>{boxProps.content.lesson5}</li>
-                    </ul>
-                </section>
-            </article>
+        <section key={boxProps.key}>
+            <div className={"box2"} />
+            <div className={"box3"} />
+                <article className={boxProps.class}>
+                    <h5 className={"number"}>{boxProps.number}</h5>
+                    <h3 className={"categories"}>{boxProps.categorie}</h3>
+                    <section className={"divider"}>
+
+                        <ul>
+                            <li>{boxProps.content.lesson1}</li>
+                            <li>{boxProps.content.lesson2}</li>
+                            <li>{boxProps.content.lesson3}</li>
+                            <li>{boxProps.content.lesson4}</li>
+                            <li>{boxProps.content.lesson5}</li>
+                        </ul>
+                    </section>
+                </article>
         </section>
     ))
 
@@ -154,24 +159,24 @@ export default function Main() {
                     {backendBox}
                 </section>
                 <section className={"sectionFrameworkJS"}>
-                    <section className={"sectionREACT"}>
-                        <h3>REACT</h3>
-                        <ul>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
+                    <section className={"sectionFramework"}>
+                        <h3 className={"titleFramework"}>REACT</h3>
+                        <ul className={"ulFramework"}>
+                            <li className={"liFramework"}>Aut nisi doloribus ut optio repellat.</li>
+                            <li className={"liFramework"}>Vel quaerat corrupti ab quos reiciendis rem dolor natus.</li>
+                            <li className={"liFramework"}>Sit voluptates illum qui odit veniam et quia fuga!</li>
+                            <li className={"liFramework"}>Sed minima distinctio est voluptates ipsum.</li>
+                            <li className={"liFramework"}>Ut voluptates voluptas quo dolor molestiae qui totam sint.</li>
                         </ul>
                     </section>
-                    <section className={"sectionNEXTJS"}>
-                        <h3>NEXTJS</h3>
-                        <ul>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
-                            <li>text</li>
+                    <section className={"sectionFramework"}>
+                        <h3 className={"titleFramework"}>NEXTJS</h3>
+                        <ul className={"ulFramework"}>
+                            <li className={"liFramework"}>Aut nisi doloribus ut optio repellat.</li>
+                            <li className={"liFramework"}>Vel quaerat corrupti ab quos reiciendis rem dolor natus.</li>
+                            <li className={"liFramework"}>Sit voluptates illum qui odit veniam et quia fuga!</li>
+                            <li className={"liFramework"}>Sed minima distinctio est voluptates ipsum.</li>
+                            <li className={"liFramework"}>Ut voluptates voluptas quo dolor molestiae qui totam sint.</li>
                         </ul>
                     </section>
                 </section>

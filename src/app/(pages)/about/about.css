@@ -1,0 +1,30 @@
+.secretSentence{
+    margin:4rem auto ;
+    text-align: center;
+    width: 500px;
+}
+
+pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secretcode{
+    margin: 4rem 0;
+    padding:0 .2rem;
+    background-color: var(--HTMLIDE);
+    color: var(--HTMLtext);
+    width: fit-content;
+    border-radius: 3px;
+}
+.codepen{
+    height: 300px;
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+}
