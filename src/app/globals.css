@@ -14,7 +14,7 @@
   --anthracite:#333;
   --eerieBlack:#23211E;
   --white:#fdfdfd;
-  --dun:#dac5a7;
+  --dun: rgba(218, 197, 167, 0.5);
   --dun2:#e6d1b3;
   --khaki:#c8b395;
   --beaver:#9f8170;
@@ -22,6 +22,12 @@
   --gray:#7c7567;
   --coffee:#7d583f;
   --battleshipGray:#888888;
+
+  --HTML:#f1a2a6;
+  --HTMLtext:#f2f3f5;
+  --HTMLparameter:#d7f0b0;
+  --HTMLIDE:#0a234e;
+  --HTMLnumber:#858585;
 }
 * {
   box-sizing: border-box;

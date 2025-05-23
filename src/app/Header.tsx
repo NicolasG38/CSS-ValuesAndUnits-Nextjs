@@ -13,8 +13,8 @@ export default function Header(){
         <section className={"styles-nav-section"}>
             <ul className={"styles-navList"}>
                 <Link href="/"><li className={"style-navList-li"}>Home</li></Link>
-                <Link href="/frontend"><li className={"style-navList-li"}>Frontend</li></Link>
-                <Link href="/backend"><li className={"style-navList-li"}>Backend</li></Link>
+                <Link href="/"><li className={"style-navList-li"}>Frontend</li></Link>
+                <Link href="/"><li className={"style-navList-li"}>Backend</li></Link>
                 <Link href="/about"><li className={"style-navList-li"}>About</li></Link>
             </ul>
         </section>
@@ -22,7 +22,7 @@ export default function Header(){
         <section className={"styles-nav-others"}>
             <Link href="/tools"><li className={"style-navList-li"}>Outils</li></Link>
             <Link href={"/contact"}><li className={"style-navList-li"}>Contact</li></Link>
-            <Image className={"github-logo"} src={"./ui-ux/arrowCircleUp.svg"} alt={"logo github"} width={40} height={40} />
+            <Image className={"github-logo"} src={"/ui-ux/arrowCircleUp.svg"} alt={"logo github"} width={40} height={40} />
         </section>
     </nav>
       </>
