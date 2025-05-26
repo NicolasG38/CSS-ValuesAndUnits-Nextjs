@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header(){
   return(
       <>
-        <section className={"sectionLogo"}>
+        <section id={"top"} className={"sectionLogo"}>
           <Image className={"logo"} src={"/logo.png"} alt={"logo"} width={100} height={100} />
         </section>
     <nav className={"styles-nav"}>

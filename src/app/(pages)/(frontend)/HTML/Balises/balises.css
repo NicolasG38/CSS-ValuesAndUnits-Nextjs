@@ -1,0 +1,33 @@
+.sectionMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+.titleBalises{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+table{
+    border: var(--battleshipGray) 2px solid;
+    text-align: center;
+    width: 80vw;
+}
+th, td{
+    border: var(--battleshipGray) 1px solid;
+    padding: 1rem 2rem;
+}
+td{
+    line-height: 1.8rem;
+    text-align: start;
+}
+code{
+    background: var(--white);
+    color: var(--eerieBlack);
+    padding: .2rem .4rem;
+    border-radius: .25rem;
+
+}
