@@ -1,6 +1,8 @@
-import Header from "@/app/Header";
-import BalisesMain from "@/app/(pages)/(frontend)/HTML/Balises/balises";
 import Footer from "@/app/Footer";
+import Header from "@/app/Header";
+
+import BalisesMain from "@/app/(pages)/(frontend)/HTML/Balises/balises";
+
 
 
 export default function Balises(){
