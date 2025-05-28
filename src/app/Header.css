@@ -13,6 +13,8 @@ header {
     z-index: 50;
 .logo{
     margin:0 2rem;
+    height: auto;
+    width: auto;
 }
     &::after {
         background: linear-gradient(#333, transparent);
