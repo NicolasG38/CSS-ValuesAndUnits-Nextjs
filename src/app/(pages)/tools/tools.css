@@ -1,0 +1,8 @@
+.toolsMainSection{
+    background: whitesmoke;
+    color: var(--eerieBlack);
+    display: flex;
+    justify-content: space-evenly;
+
+
+}

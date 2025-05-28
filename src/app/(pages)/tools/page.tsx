@@ -2,6 +2,7 @@ import Header from '../../Header'
 import Footer from "@/app/Footer";
 import '../../Header.css'
 import '../../Footer.css'
+import Toolsmain from "@/app/(pages)/tools/tools";
 
 export default function Tools(){
     return (
@@ -10,7 +11,7 @@ export default function Tools(){
                 <Header/>
             </header>
             <main>
-                <h1> ceci est mon tools</h1>
+            <Toolsmain/>
             </main>
             <Footer />
         </>
